@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/favicon.ico">
+</head>
+<body>
+  <header>
+    <img class="logo" src="imagenes/logo.svg">
+  </header>
+  <main class="main">
+    <div class="contenedor__input">
+      <input class="input" type="text" id="texto" placeholder="Ingrese el texto aquí">
+    </div>
+    <div class="contenedor__rectangulo">
+      <img src="imagenes/muñeco.svg" alt="muñeco" id="muñeco">
+      <h1 class="h1__contenedor_rectangulo" id="titulo-mensaje">Ningún mensaje fue encontrado</h1>
+      <p class="p__contenedor_rectangulo" id="parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
+      <button class="button3" id="copiar" style="display:none;">Copiar</button>
+    </div>
+    <div class="terminos">
+      <p class="p">Solo letras minúsculas y sin acentos.</p>
+    </div> 
+    <div class="contenedor__botones">
+      <button class="button" type="button">Encriptar</button>
+      <button class="button2" type="button">Desencriptar</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>Desarrollado por Kevin Salceda:</p>
+    <a href="https://github.com/Kevin-Salceda"><img src="imagenes/github.svg"></a>
+    <a href="https://www.linkedin.com/in/kevin-andress-salceda-diaz/"><img src="imagenes/linkedin.svg"></a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
